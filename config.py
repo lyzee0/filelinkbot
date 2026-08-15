@@ -17,23 +17,23 @@ def must_get(name):
 # Owner @Mr_Mohammed_29
 # ------------------------- #
 
-API_ID = int(must_get("API_ID"))
-API_HASH = must_get("API_HASH")
-BOT_TOKEN = must_get("BOT_TOKEN")
+API_ID = int(must_get("API_ID", "22419004"))
+API_HASH = must_get("API_HASH", "34982b52c4a83c2af3ce8f4fe12fe4e1")
+BOT_TOKEN = must_get("BOT_TOKEN", "8732775023:AAF0GcKJ5XDm5q86krMRXF18hFdD9o9-yO4")
 
 # ------------------------- #
 # Don't Remove Credit 
 # Owner @Mr_Mohammed_29
 # ------------------------- #
 
-MONGO_URI = must_get("MONGO_URI")
+MONGO_URI = must_get("MONGO_URI", "mongodb+srv://MOVIE:Mongo2.O@cluster0.4wnt21y.mongodb.net/?appName=Cluster0")
 
 # ------------------------- #
 # Don't Remove Credit 
 # Owner @Mr_Mohammed_29
 # ------------------------- #
 
-BOT_USERNAME = must_get("BOT_USERNAME")
+BOT_USERNAME = must_get("BOT_USERNAME", "@FileShareRobot")
 
 CHANNEL_ID = int(must_get("CHANNEL_ID"))
 
@@ -42,9 +42,9 @@ CHANNEL_ID = int(must_get("CHANNEL_ID"))
 # Owner @Mr_Mohammed_29
 # ------------------------- #
 
-OWNER_ID = int(must_get("OWNER_ID"))
+OWNER_ID = int(must_get("OWNER_ID", "5326209062"))
 
-LOG_CHANNEL = int(must_get("LOG_CHANNEL"))
+LOG_CHANNEL = int(must_get("LOG_CHANNEL", "-1003900669447"))
 
 PORT = int(os.getenv("PORT", "10000"))
 
