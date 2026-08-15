@@ -1,35 +1,33 @@
-
-# ------------------------- #
-# Don't Remove Credit 
-# Owner @Mr_Mohammed_29
-# ------------------------- #
-
 import os
 
-def must_get(name):
-    value = os.getenv(name)
+
+def must_get(name, default=None):
+    value = os.getenv(name, default)
+
     if not value:
         raise Exception(f"{name} is not set in environment variables")
+
     return value
 
+
 # ------------------------- #
-# Don't Remove Credit 
+# Don't Remove Credit
 # Owner @Mr_Mohammed_29
 # ------------------------- #
 
-API_ID = int(must_get("API_ID", "22419004"))
-API_HASH = must_get("API_HASH", "34982b52c4a83c2af3ce8f4fe12fe4e1")
-BOT_TOKEN = must_get("BOT_TOKEN", "8732775023:AAF0GcKJ5XDm5q86krMRXF18hFdD9o9-yO4")
+API_ID = int(must_get("API_ID"))
+API_HASH = must_get("API_HASH")
+BOT_TOKEN = must_get("BOT_TOKEN")
 
 # ------------------------- #
-# Don't Remove Credit 
+# Don't Remove Credit
 # Owner @Mr_Mohammed_29
 # ------------------------- #
 
-MONGO_URI = must_get("MONGO_URI", "mongodb+srv://MOVIE:Mongo2.O@cluster0.4wnt21y.mongodb.net/?appName=Cluster0")
+MONGO_URI = must_get("MONGO_URI")
 
 # ------------------------- #
-# Don't Remove Credit 
+# Don't Remove Credit
 # Owner @Mr_Mohammed_29
 # ------------------------- #
 
@@ -38,18 +36,18 @@ BOT_USERNAME = must_get("BOT_USERNAME", "@FileShareRobot")
 CHANNEL_ID = int(must_get("CHANNEL_ID"))
 
 # ------------------------- #
-# Don't Remove Credit 
+# Don't Remove Credit
 # Owner @Mr_Mohammed_29
 # ------------------------- #
 
-OWNER_ID = int(must_get("OWNER_ID", "5326209062"))
+OWNER_ID = int(must_get("OWNER_ID"))
 
 LOG_CHANNEL = int(must_get("LOG_CHANNEL", "-1003900669447"))
 
 PORT = int(os.getenv("PORT", "10000"))
 
 # ------------------------- #
-# Don't Remove Credit 
+# Don't Remove Credit
 # Owner @Mr_Mohammed_29
 # ------------------------- #
 
@@ -59,7 +57,7 @@ FORCE_SUB_IMAGE = os.getenv(
 )
 
 # ------------------------- #
-# Don't Remove Credit 
+# Don't Remove Credit
 # Owner @Mr_Mohammed_29
 # ------------------------- #
 
@@ -69,7 +67,7 @@ CHECKING_IMAGE = os.getenv(
 )
 
 # ------------------------- #
-# Don't Remove Credit 
+# Don't Remove Credit
 # Owner @Mr_Mohammed_29
 # ------------------------- #
 
