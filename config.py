@@ -31,7 +31,7 @@ MONGO_URI = must_get("MONGO_URI")
 # Owner @Mr_Mohammed_29
 # ------------------------- #
 
-BOT_USERNAME = must_get("BOT_USERNAME", "@FileShareRobot")
+BOT_USERNAME = must_get("BOT_USERNAME", "Hubcloud_Robot")
 
 CHANNEL_ID = int(must_get("CHANNEL_ID"))
 
